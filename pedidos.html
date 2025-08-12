@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pedidos - DecoraLar</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="header">
+    <h1>DecoraLar</h1>
+    <nav class="nav">
+      <a href="index.html">Início</a>
+      <a href="quem-somos.html">Quem Somos</a>
+      <a href="busca.html">Busca</a>
+      <a href="produtos.html">Produtos</a>
+      <a href="contato.html">Contato</a>
+      <a href="cadastro.html">Cadastro</a>
+      <a href="pedidos.html">Pedidos</a>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="pedidos">
+      <h2>Seus Pedidos</h2>
+
+      <div class="item-pedido">
+        <input type="checkbox" id="item1" />
+        <label for="item1">
+          <div class="info-produto">
+            <p><strong>Produto:</strong> Quadro Floral</p>
+            <p><strong>Preço:</strong> R$ 120,00</p>
+            <label>Quantidade: <input type="number" min="1" value="1" /></label>
+          </div>
+        </label>
+      </div>
+
+      <div class="item-pedido">
+        <input type="checkbox" id="item2" />
+        <label for="item2">
+          <div class="info-produto">
+            <p><strong>Produto:</strong> Vaso Cerâmica</p>
+            <p><strong>Preço:</strong> R$ 85,00</p>
+            <label>Quantidade: <input type="number" min="1" value="2" /></label>
+          </div>
+        </label>
+      </div>
+
+      <div class="total">
+        <p><strong>Total estimado:</strong> R$ 290,00</p>
+        <button class="btn-enviar">Finalizar Pedido</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>2025 DecoraLar. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
